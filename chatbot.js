@@ -205,5 +205,6 @@ client.on('message', async msg => {
     await client.sendMessage(atendenteInstalacao, aviso);
     return;
   }
-
+  // Impede que o processo encerre automaticamente no Railway
+setInterval(() => {}, 1000 * 60 * 60);
 });
