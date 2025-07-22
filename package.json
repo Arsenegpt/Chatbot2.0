@@ -5,7 +5,7 @@
   "main": "chatbot.js",
   "type": "commonjs",
   "scripts": {
-    "start": "patch-package && node chatbot.js"
+    "start": "node chatbot.js"
   },
   "author": "SeuNome",
   "license": "MIT",
