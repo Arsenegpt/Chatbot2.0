@@ -1,0 +1,21 @@
+{
+  "name": "bot-whatsapp",
+  "version": "1.0.0",
+  "description": "Bot do WhatsApp com integração Asaas",
+  "main": "chatbot.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "patch-package && node chatbot.js"
+  },
+  "author": "SeuNome",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.10.0",
+    "dotenv": "^17.2.0",
+    "patch-package": "^8.0.0",
+    "puppeteer": "^24.14.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.31.0"
+  },
+  "keywords": []
+}
