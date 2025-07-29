@@ -207,11 +207,6 @@ client.on('message', async msg => {
   }
   // Impede que o processo encerre automaticamente no Railway
 setInterval(() => {}, 1000 * 60 * 60);
-
-    // ✅ Caso o usuário digite algo que não está nas opções
-  await chat.sendStateTyping();
-  await delay(1000);
-  await client.sendMessage(msg.from, '🤔 Desculpe, não entendi.\n\nDigite *menu* para ver as opções.');
 });
 
 
